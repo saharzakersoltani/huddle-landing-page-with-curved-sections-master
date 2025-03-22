@@ -280,3 +280,19 @@
     font-size: 22%;
   }
 }
+
+/* less than 325px */
+@media (max-width: 20.3em) {
+  /* .wave-image-top-mobile {
+    width: 100%;
+    transform: translateY(1rem);
+  } */
+
+  .form input {
+    font-size: 3rem;
+  }
+
+  html {
+    font-size: 21%;
+  }
+}
