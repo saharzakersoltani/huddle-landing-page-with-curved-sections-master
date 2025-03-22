@@ -250,24 +250,33 @@
 }
 
 /* less than 435px */
-@media (max-width: 27em) {
-  .container {
-    width: 80rem;
-    padding: 0 6.4rem;
-  }
-
+@media (max-width: 28em) {
   .wave-image-top-mobile {
     width: 100%;
     transform: translateY(1rem);
+  }
+
+  .form input {
+    font-size: 3rem;
+  }
+
+  html {
+    font-size: 25%;
   }
 }
 
-@media (max-width: 25em) {
-  body {
-    width: 90rem;
-  }
+/* less than 361px */
+@media (max-width: 22.6em) {
   .wave-image-top-mobile {
     width: 100%;
     transform: translateY(1rem);
+  }
+
+  .form input {
+    font-size: 3rem;
+  }
+
+  html {
+    font-size: 22%;
   }
 }
